@@ -174,7 +174,7 @@
                 <div
                     class="col-span-1 flex flex-row md:flex-col  items-center justify-center md:border-l-2 border-dotted border-lime-500 ">
                     <img src="./images/fare.png" alt="">
-                    <h1><span id="per_ticket_price" class="font-bold">500</span>Taka</h1>
+                    <h1><span id="per_ticket_price" class="font-bold text-xl">500</span> Taka</h1>
                     <h1>Per seat</h1>
                 </div>
             </div>
@@ -406,18 +406,18 @@
                     <h1 class="text-xl font-bold border-b-2 border-black border-dotted mb-4 pb-2">Seat details</h1>
                     <div class="bg-gray-100 p-3 space-y-2 rounded-md">
 
-                        <div class="overflow-x-auto ">
+                        <div class="">
                             <table class="table ">
                                 <!-- head -->
                                 <thead >
-                                    <tr class="bg-green-300 ">
+                                    <tr class="bg-green-300 text-black ">
                                         <th>Seat <span id="seat_count">0</span></th>
                                         <th>Class</th>
                                         <th>Price</th>
                                     </tr>
                                 </thead>
                                 <!-- Seat number -->
-                                <tbody id="tableBody" class="border-y-2 border-black border-dotted ">
+                                <tbody id="tableBody" class="border-y-2 border-black border-dotted overflow-x-auto ">
                                     <!-- row 1 -->
                                     <!-- <tr id="table_row">
                                         <td>A1</td>
@@ -484,6 +484,8 @@
                                         <button onclick="nextBtnClick()"  id="next_btn" class="btn bg-lime-500 hover:bg-lime-600 text-white">Next</button>
                                     </div>
                                 </form>
+                              
+
                                 <div class="flex justify-around mt-4 font-semibold">
                                     <a href="#" class="text-xs hover:underline dark:text-gray-400">T & C</a>
                                     <a href="#" class="text-xs hover:underline dark:text-gray-400">Cancelation
