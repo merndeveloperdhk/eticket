@@ -41,13 +41,26 @@ function setElement(elementId, value) {
 function nextBtnClick() {
   const nameField = document.getElementById('name');
   const name = nameField.value;
-  console.log(typeof name);
   const numberField = document.getElementById('number');
   const number = numberField.value;
   const emailField = document.getElementById('email');
   const email = emailField.value;
   console.log(name, number, email);
-
+  
+    const nextBtn =document.getElementById('next_btn');
+    nextBtn.removeAttribute('disabled', true)
+  }
+{/* <dialog id="my_modal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">{name}</h3>
+    <p class="py-4">{email}</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog> */}
 
 }
 
