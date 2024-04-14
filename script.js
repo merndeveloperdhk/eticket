@@ -46,10 +46,7 @@ function nextBtnClick() {
   const emailField = document.getElementById('email');
   const email = emailField.value;
   console.log(name, number, email);
-  
-    const nextBtn =document.getElementById('next_btn');
-    nextBtn.removeAttribute('disabled', true)
-  }
+ 
 {/* <dialog id="my_modal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <h3 class="font-bold text-lg">{name}</h3>
